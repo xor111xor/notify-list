@@ -1,0 +1,4 @@
+notify-list
+notify-list.service
+*.swp
+*.swo

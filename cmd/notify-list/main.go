@@ -47,10 +47,10 @@ var AppVersion string
 
 func main() {
 	flag.Usage = func() {
-		fmt.Fprintf(os.Stderr, "Utill for handling list of notifications using cron format\n")
+		fmt.Fprintf(os.Stderr, "Performing notifications for list of tasks on cron format\n")
 		flag.PrintDefaults()
 	}
-	flagList := flag.String("list", "$HOME/.config/notify-list/list.json", "Set path to list of tasks")
+	flagList := flag.String("list", "$HOME/.config/notify-list/list.json", "set path to list of tasks")
 	flagVersion := flag.Bool("v", false, "show version")
 	flag.Parse()
 

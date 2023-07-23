@@ -1,6 +1,8 @@
 # Notify-list
 Accomplish of notifications for list of the tasks in **cron** format
 
+![image info](./doc/img.png)
+
 Describe your tasks on **$HOME/.config/notify-list/list.json**
 
 Or simply run:
