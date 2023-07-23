@@ -1,0 +1,15 @@
+[
+  {
+    "title":    "@time",
+    "message":  "The time has come",
+    "urgency":  "Critical",
+    "cron":     "@every 1s"
+  },
+
+  {
+    "title":    "Check mail",
+    "message":  "Need check working mail",
+    "urgency":  "Normal",
+    "cron":     "*/30 * * * *"
+  }
+]
