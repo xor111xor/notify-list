@@ -28,7 +28,7 @@ func (t Task) Notify() {
 
 	// Handling special titles
 	if t.Title == "@time" {
-		t.Title = time.Now().Format("15:00")
+		t.Title = time.Now().Format("15:04")
 	}
 
 	c := exec.Command(path, t.Title, t.Message, "-u", t.Urgency)
